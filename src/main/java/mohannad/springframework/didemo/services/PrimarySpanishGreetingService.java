@@ -1,20 +1,20 @@
 package mohannad.springframework.didemo.services;
 
+import mohannad.springframework.didemo.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
-@Profile({"en" , "default"})
+@Profile("es")
 @Primary
-public class PrimaryGreetingService implements GreetingService {
-
+public class PrimarySpanishGreetingService implements GreetingService {
     @Autowired
     private GreetingRepository greetingRepository;
 
     @Override
     public String sayGreeting() {
-        return greetingRepository.getEnglishGreeting();
+        return greetingRepository.getSpanishGreeting();
     }
 }
