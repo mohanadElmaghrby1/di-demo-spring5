@@ -13,7 +13,7 @@ public class DiDemoApplication {
 
     public static void main(String[] args) {
         ApplicationContext cntxt = SpringApplication.run(DiDemoApplication.class, args);
-        MyController controller = (MyController) cntxt.getBean("myController");
+        MyController controller = (MyController) cntxt.getBean(" myController");
 
 
         System.out.println( controller.hello());
