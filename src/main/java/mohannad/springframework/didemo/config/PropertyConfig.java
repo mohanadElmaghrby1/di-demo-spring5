@@ -43,10 +43,10 @@ public class PropertyConfig {
         return fakeDataSource;
     }
 
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer properties(){
-        //used for reading .properties files
-        PropertySourcesPlaceholderConfigurer p =new PropertySourcesPlaceholderConfigurer();
-        return p;
-    }
+//    @Bean
+//    public static PropertySourcesPlaceholderConfigurer properties(){
+//        //used for reading .properties files
+//        PropertySourcesPlaceholderConfigurer p =new PropertySourcesPlaceholderConfigurer();
+//        return p;
+//    }
 }
