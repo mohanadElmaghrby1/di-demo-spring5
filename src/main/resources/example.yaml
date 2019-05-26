@@ -1,0 +1,27 @@
+name: mohannad #create a property with val mohanad
+
+names: #create arrays of names
+  mohanad
+  ahmed
+  nady
+
+pund_sign: "#" #creat a sign
+
+book: #create a complex object
+  author: nono
+  publisher: soso
+
+truth: yes
+another_truth: TRUE # true=TRUE=yes=YES all are true and false also
+
+string_value: "this is string between double quotes"
+
+include_new_lines: |
+  this is
+  include
+  new line
+
+ignore_new_line: >
+  ignore
+  new lines
+  toto
