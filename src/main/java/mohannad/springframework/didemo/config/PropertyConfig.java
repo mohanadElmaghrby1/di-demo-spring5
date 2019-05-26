@@ -38,7 +38,7 @@ public class PropertyConfig {
     public FakeDataSource fakeDataSource(){
         FakeDataSource fakeDataSource= new FakeDataSource();
         fakeDataSource.setUser(user);
-        fakeDataSource.setPassword(pass);
+        fakeDataSource.setPassword(passj);
         fakeDataSource.setUrl(url);
         return fakeDataSource;
     }

@@ -1,0 +1,4 @@
+jms:
+  username: ymluser
+  password: ymlpass
+  dburl: someurl
